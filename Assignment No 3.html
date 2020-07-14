@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <title>Assignment No 3</title>
+    </head>
+    <body>
+        <p id="p1"></p>
+        <p id="p2"></p>
+        <script>
+            var today = new Date();
+            var date = today.getMonth() + "-" + today.getDate() + "-" + today.getFullYear() + " " + "," +" "+ today.getMonth() + "/" + today.getDate() + "/" + today.getFullYear();
+            var date1 = today.getDate() + "-" + today.getMonth() + "-" + today.getFullYear() + " " + "," +" "+today.getDate() + "/" + today.getMonth() + "/" + today.getFullYear();
+            document.getElementById("p1").innerHTML= date;
+            document.getElementById("p2").innerHTML= date1;
+        </script>
+    </body>
+</html>
